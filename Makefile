@@ -2,7 +2,7 @@
 # http://www.enderunix.org/aget/
 
 OBJS = main.o Aget.o Misc.o Head.o Signal.o Download.o Resume.o
-CFLAGS = -g -W
+CFLAGS = -g -W -D_GNU_SOURCE
 LDFLAGS = -pthread
 CC = gcc
 STRIP = strip
